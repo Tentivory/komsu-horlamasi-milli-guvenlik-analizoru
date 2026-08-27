@@ -91,7 +91,7 @@ def main() -> None:
     time.sleep(1.2)
 
     komsu = input("Komşunun adı (veya kod adı): ").strip() or "Bilinmeyen Komşu"
-    kat = input("Kat numarası: ").strip() or "?")
+    kat = input("Kat numarası: ").strip() or "?"
     try:
         siddet = int(input("Horlama şiddeti (1-5): ").strip() or "3")
     except ValueError:
